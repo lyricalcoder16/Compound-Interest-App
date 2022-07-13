@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Principal(P)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/Interest_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Interest Rate(r)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Compounded:"
+        android:textAlignment="center" />
+
+    <RadioButton
+        android:id="@+id/annualradio"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Annually" />
+
+    <RadioButton
+        android:id="@+id/monthlyradio"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Monthly" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time to be compounded"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Amount"
+        android:textAlignment="center" />
+
+</LinearLayout>
